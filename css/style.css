@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #1b232b;
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.wrapper {
+	width: 984px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+.header {
+	border: 1px solid rgba(252, 252, 252, 0.1);
+	background: rgba(252, 252, 252, 0.02);
+	padding: 20px 23px 20px 135px;
+	border-radius: 10px;
+}
+.header>label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	font-size: 32px;
+}
+.header #currencies{
+	float: right;
+	margin-right: 30px;
+	height: 40px;
+	width: 180px;
+	background-color: #1b232b; 
+	border-radius: 3px;
+	border: 1px solid rgba(252, 252, 252, 0.1);
+	color: #fff;
+}
+.cryptoBlocks {
+	margin-top: 53px;
+}
+.cryptoBlocks h3{
+	color: #fff;
+	text-align: center;
+
+}
+.singleBl {
+	width: 28.3333%;
+	max-width: 308px;
+	float: left;
+	margin: 0 1%;
+	border-radius: 10px;
+	padding: 20px 1.5%;
+	background-size: cover;
+}
+ .ethereumBl{
+	background: #2d4934;
+	background-image: url(../images/shadow.png);
+}
+.litecoinBl{
+	background: #333333;
+	background-image: url(../images/shadow.png);
+}
+.bitcoinBl{
+	background: #301103;	
+	background-image: url(../images/shadow.png);
+}
+.singleBl a>img{
+     display: block;
+      margin: 0 auto;
+   box-shadow: 0 5px 4px -4px black;
+}
+.info>div {
+	clear: both;
+}
+.info>div>.text{
+	float:left;
+	width: 50%;
+}
+.info>div>.value{
+	float:right;
+	text-align: right;
+	width: 50%;
+}
+.changePercentIndicator {
+	height: 26px;
+}
+.changePercentIndicatorOn {
+	background: url('../images/radioOn.png') no-repeat center right;
+}
+.changePercentIndicatorOff {
+	background: url('../images/radioOff.png') no-repeat center right;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+	}
+	
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	}
+}
+@media only screen and (max-width : 767px) {
+	
+}
+
+@media only screen and (max-width : 540px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+@media only screen and (min-width : 1200px) {
+
+}
